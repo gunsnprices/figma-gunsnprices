@@ -1,0 +1,16 @@
+{
+  "name": "Gun & Ammo Data",
+  "id": "gunsnprices-gun-ammo-data",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "editorType": ["figma", "figjam"],
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": ["none"]
+  },
+  "menu": [
+    { "name": "Fill with gun & ammo data", "command": "fill" },
+    { "name": "Normalize caliber text", "command": "normalize" }
+  ]
+}
